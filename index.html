@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>&lt;typeahead-country&gt;</title>
+
+    <!-- Importing Web Component's Polyfill -->
+    <script src="app/bower_components/platform/platform.js"></script>
+
+    <!-- Importing Custom Elements -->
+    <link rel="import" href="src/typeahead-country.html">
+</head>
+<body>
+    <h1><a href="http://github.com/addyosmani/typeahead-country">&lt;typeahead-country&gt;</a></h1>
+    <h2>A Polymer typeahead element for country selection</h2>
+    <!-- Using Custom Elements -->
+
+    <h3>Basic usage</h3>
+    <pre>
+        &lt;typeahead-country &gt;&lt;/typeahead-country&gt;
+    </pre>
+
+    <p>Try typing in a country name (e.g Ireland, Mexico, Spain):</p>
+    <typeahead-country></typeahead-country>
+
+    <h3>Usage with preview list</h3>
+    <pre>
+        &lt;typeahead-country preview="true" &gt;&lt;/typeahead-country&gt;
+    </pre>
+    <typeahead-country preview="true"></typeahead-country>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+{
+  "name": "typeahead-country",
+  "version": "0.0.1",
+  "homepage": "https://github.com/addyosmani/typeahead-country",
+  "authors": [
+    "Addy Osmani <addyosmani@gmail.com>"
+  ],
+  "description": "A Polymer element for autocompleting country names",
+  "main": "typeahead-country.html",
+  "keywords": [
+    "web-component",
+    "web-components",
+    "polymer",
+    "country",
+    "selection",
+    "typeahead"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "platform": "Polymer/platform#~0.2.0",
+    "polymer": "Polymer/polymer#~0.2.0",
+    "typeahead-input": "Polymer/typeahead-input#~0.2.0"
+  }
+}
